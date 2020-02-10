@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a.logo {
+  font-size: 30px;
+  color: #000;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.main-manu {
+  margin: 0;
+  padding: 0;
+  /* display: inline-block; */
+  /* color: black; */
+}
+
+.main-manu ul {
+  list-style: noe;
+  list-style: none;
+  padding-top: 20px;
+  /* display: inline-block; */
+}
+
+.main-manu ul li {
+  display: inline-block;
+}
+.main-manu ul li:last-child a {
+  padding-right: 0;
+}
+
+.main-manu ul li a {
+  color: #000;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.main-manu ul li a:hover:after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: #000;
+  bottom: 5px;
+  left: 50%;
+  margin-left: -15px;
+}
+input[type="text"] {
+    border: 1px solid #ddd;
+    padding: 5px 5px;
+}
+
+
+input[type="submit"] {
+    background: #000;
+    color: #fff;
+    padding: 6px 21px;
+    border: none;
+}
+.header{
+  padding-top: 30px;
+}
+img {
+  max-width: 100%;
+}
+h2 {
+  font-weight: 900;
+}
+
+.single-photo-item a{
+  color: #000;
+  text-decoration: none;
+}
+
+.single-photo-item a h5 {
+  padding: 20px 0 0 0;
+  text-transform: uppercase;
+}
+
+.single-photo-item a p {
+  text-transform: uppercase;
+  font-size: 15px;
+  opacity: 0.6;
+  transition-duration: .3s;
+}
+
+.footer-manu {
+  color: #000;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  
+}
+
+.footer-manu ul{
+  list-style: none;
+  text-transform: uppercase;
+
+}
+
+.footer-manu ul li{
+  display: inline-block;
+}
+.footer-manu ul li a {
+  color: #000;
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+}
+
+.image-wrapper {
+  height: 200px;
+  margin-bottom: 5px;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.single-photo-item {
+  margin-bottom: 35px;
+}
+
+.image-wrapper2 {
+  height: 40px;
+  width: 40px;
+  border: 1.5px solid rgba(194, 192, 192, 0.836);
+  margin: 10px 0;
+  border-radius: 20%;
+}
+.radius-img {
+  border-radius: 20%;
+  
+}
+.loading {
+  padding: 200px 0;
+}
+.top-heading {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.cat-name:hover {
+  opacity: 1;
+}
+.btn-success {
+  margin: 30px 0 70px;
+}
